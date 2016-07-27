@@ -31,6 +31,7 @@ public class Solution
         }
     }
     
+    
     if (left == right) { return index; }
     }
     
