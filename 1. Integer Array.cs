@@ -48,8 +48,8 @@ public class Refactor1
     {
         for (int index = 0; index < arr.Length; index++)
         {
-        int left = arr.Take(i).Sum();
-        int right = arr.Skip(i+1).Sum();
+        int left = arr.Take(index).Sum();
+        int right = arr.Skip(index+1).Sum();
 
         if(left == right) { return index; }
         }
