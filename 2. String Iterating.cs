@@ -30,7 +30,7 @@ public class Refactor1
 
         foreach (char c in str)
         {
-            if (char.IsLower(c) { count++; }
+            if (char.IsLower(c)) { count++; }
         }
 
         return count;
